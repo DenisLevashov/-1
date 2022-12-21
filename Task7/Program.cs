@@ -3,3 +3,14 @@
 //456 -> 6
 
 //782 -> 2
+using static System.Console;
+WriteLine("Введите трехчисло a: ");
+int a = int.Parse(ReadLine()!);
+if (a>99 && a<=999)
+{
+    Write($"Последняя цифра {a%10}");
+}
+else
+{
+    Write("Читай внимательно");
+}
