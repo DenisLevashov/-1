@@ -5,7 +5,7 @@
 using static System.Console;
 Clear();
 Write("Введите пятизначное число: ");
-int number = int.Parse(Console.ReadLine()!);
+int number = int.Parse(ReadLine()!);
 
 int num1 = number / 10000;
 int num2 = number / 1000 % 10;
