@@ -5,18 +5,18 @@
 using static System.Console;
 Clear();
 Write("Введите координату XA: ");
-int XA = int.Parse(Console.ReadLine()!);
+int XA = int.Parse(ReadLine()!);
 Write("Введите координату YA: ");
-int YA = int.Parse(Console.ReadLine()!);
+int YA = int.Parse(ReadLine()!);
 Write("Введите координату ZA: ");
-int ZA = int.Parse(Console.ReadLine()!);
+int ZA = int.Parse(ReadLine()!);
 
 Write("Введите координату XB: ");
-int XB = int.Parse(Console.ReadLine()!);
+int XB = int.Parse(ReadLine()!);
 Write("Введите координату YB: ");
-int YB = int.Parse(Console.ReadLine()!);
+int YB = int.Parse(ReadLine()!);
 Write("Введите координату ZB: ");
-int ZB = int.Parse(Console.ReadLine()!);
+int ZB = int.Parse(ReadLine()!);
 
 double AB = Math.Sqrt(Math.Pow((XB - XA), 2) + Math.Pow((YB - YA), 2) + Math.Pow((ZB - ZA), 2));
 
