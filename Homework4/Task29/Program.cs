@@ -21,4 +21,4 @@ for (int i = 0; i < array.Length - 1; i++)
 {
     Write(array[i] + ", ");
 }
-WriteLine(array[8 - 1] + "]");
+WriteLine(array[array.Length - 1] + "]");
