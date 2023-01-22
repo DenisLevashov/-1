@@ -9,7 +9,7 @@ Clear();
 int[] array = new int[8];
 
 
-int result = 0;
+double result = 0;
 
 
 int[] RandomArray()
@@ -31,8 +31,8 @@ int[] RandomArray()
 
 void DifferenceArray(int[]array)
 {   
-    int max=array[0];
-    int min=array[0];
+    double max=array[0];
+    double min=array[0];
     
     for (int i = 1; i < array.Length; i++)
     {
