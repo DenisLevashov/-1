@@ -17,13 +17,13 @@ int[] RandomArray()
     {
         array[i] = new Random().Next(1, 100);
     }
-    Console.Write("[");
+    Write("[");
 
     for (int i = 0; i < array.Length - 1; ++i)
     {
-        Console.Write(array[i] + ", ");
+        Write(array[i] + ", ");
     }
-    Console.WriteLine(array[array.Length - 1] + "]");
+    WriteLine(array[array.Length - 1] + "]");
     return array;
 }
 
