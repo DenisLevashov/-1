@@ -20,18 +20,18 @@ void EventArray(int[] array)
 
 int[] CreateArray()
 {
-    int[] array = new int[10];
-    for(int i = 0; i < 10; i++)
+    
+    for(int i = 0; i < array.Length; i++)
     {
         array[i] = new Random().Next(100, 1000);
     }
     Console.Write("[");
 
-    for (int i = 0; i < 10 - 1; ++i)
+    for (int i = 0; i < array.Length-1; ++i)
     {
         Console.Write(array[i] + ", ");
     }
-    Console.WriteLine(array[10 - 1] + "]");
+    Console.WriteLine(array[array.Length - 1] + "]");
     return array;
 }
 
